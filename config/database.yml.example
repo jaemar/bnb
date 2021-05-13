@@ -1,0 +1,7 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  database: bnb
+  username: <your_username>
+  password: <your_password>

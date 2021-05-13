@@ -1,0 +1,84 @@
+{
+  "type": "object",
+  "required": [
+    "start_date",
+    "end_date",
+    "nights",
+    "guests",
+    "adults",
+    "children",
+    "infants",
+    "status",
+    "guest",
+    "currency",
+    "payout_price",
+    "security_price",
+    "total_price"
+  ],
+  "properties": {
+    "start_date": {
+      "type": "string"
+    },
+    "end_date": {
+      "type": "string"
+    },
+    "nights": {
+      "type": "integer"
+    },
+    "guests": {
+      "type": "integer"
+    },
+    "adults": {
+      "type": "integer"
+    },
+    "children": {
+      "type": "integer"
+    },
+    "infants": {
+      "type": "integer"
+    },
+    "status": {
+      "type": "string"
+    },
+    "guest": {
+      "type": "object",
+      "required": [
+        "id",
+        "first_name",
+        "last_name",
+        "phone",
+        "email"
+      ],
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "first_name": {
+          "type": "string"
+        },
+        "last_name": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "email":  {
+          "type":"string"
+        }
+      }
+    },
+    "currency": {
+      "type": "string"
+    },
+    "payout_price": {
+      "type": "string"
+    },
+    "security_price": {
+      "type": "string"
+    },
+    "total_price": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}
