@@ -8,7 +8,6 @@ gem "sinatra-contrib"
 gem "rake"
 gem "pg"
 gem "json-schema"
-gem "monetize"
 
 group :development do
   gem "pry"
